@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.tit{
+	position: absolute;top:50px; width: 1920px; height: 100px;background-color: aqua;text-align: left;font-size: 50px;
+	
+}
+.wt{
+	border-collapse: collapse;
+	position: absolute;top:150px;width: 450px;height: 450px;
+}
+.wtz{
+	position: absolute;top: 10px;left:80px;
+}
+.sl{
+	position: absolute;top:50px;width: 450px; height: 310px;top:600px;
+}
+.wt h1{
+	text-align: left;
+	font-size: 26px;
+	position: relative;
+	top: 135px;
+	left: 60px;
+}
+.jieshao{
+	border-collapse: collapse;
+	position: absolute;top:150px;width: 1010px; height: 760px;right: 0;
+	text-align: left;
+}
+.js11{
+	position: relative;
+	top: 0px;
+}
+.js11 h1{
+	text-align: center;
+	color: #FF0004;
+}

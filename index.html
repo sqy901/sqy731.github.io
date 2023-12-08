@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导航</title>
+    <link rel="stylesheet" href="web/css/style.css">
+</head>
+
+<body>
+<h1 class="ks"><a href="web/index(1).html">开始冒险</a></h1>
+<div id="toggle-icon" onclick="menuToggle()">
+
+    </div>
+    <div id="menu-overlay">
+        <ul>
+            <li><a href="web/index(1).html">首页</a></li>
+            <li><a href="web/author.html">作者介绍</a></li>
+            <li><a href="web/OP.html">OP欣赏</a></li>
+            <li><a href="web/members.html">草帽成员</a></li>
+            <li><a href="web/time.html">时间线</a></li>
+            <li><a href="https://sqy901.github.io/">返回寝室</a></li>
+        </ul>
+    </div>
+<img src="image/6.jpg" class="ee" width="1858" height="930" alt=""/>
+<script>
+        function menuToggle() {
+            var nav = document.getElementById('menu-overlay');
+            nav.classList.toggle('active');
+
+            var toggleIcon = document.getElementById('toggle-icon');
+            toggleIcon.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
